@@ -18,8 +18,8 @@ spring:
       client:
         registration:
           google:
-            clientId: 5014057553-8gm9um6vnli3cle5rgigcdjpdrid14m9.apps.googleusercontent.com
-            clientSecret: tWZKVLxaD_ARWsriiiUFYoIk
+            clientId: 615827076990-dbn7hu7rvnpgdt56c4r6ph90apf78o8l.apps.googleusercontent.com
+            clientSecret: vxnj9jpUlTdxXcyqUbHB8UHa
             redirectUri: "{baseUrl}/oauth2/callback/{registrationId}"
             scope:
               - email
@@ -32,8 +32,8 @@ spring:
               - email
               - public_profile
           github:
-            clientId: d3e47fc2ddd966fa4352
-            clientSecret: 3bc0f6b8332f93076354c2a5bada2f5a05aea60d
+            clientId: 7ad34527941990013011
+            clientSecret: cbfe3b4808cc5b32cc07b514a3f14e56c90046f7
             redirectUri: "{baseUrl}/oauth2/callback/{registrationId}"
             scope:
               - user:email
